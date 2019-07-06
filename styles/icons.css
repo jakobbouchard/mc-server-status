@@ -9,7 +9,7 @@
   font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+.icon {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
   speak: none;
@@ -24,27 +24,27 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-notification:before {
+.icon.notification:before {
   content: "\e951";
 }
-.icon-loading:before {
+.icon.loading:before {
   content: "\e97b";
 }
-.icon-refresh:before {
+.icon.refresh:before {
   content: "\e984";
 }
-.icon-settings:before {
+.icon.settings:before {
   content: "\e994";
 }
-.icon-star-empty:before {
+.icon.star-empty:before {
   content: "\e9d7";
 }
-.icon-star-full:before {
+.icon.star-full:before {
   content: "\e9d9";
 }
-.icon-plus:before {
+.icon.plus:before {
   content: "\ea0a";
 }
-.icon-github:before {
+.icon.github:before {
   content: "\eab0";
 }
