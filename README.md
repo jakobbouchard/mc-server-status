@@ -16,8 +16,7 @@ of plugins, the list of mods if it is a modded server, as well as the ping.
 
 ## Phases
 
-I plan to develop this website in two big phases. One for
-the website, and the other one for the API. The API phase
-will be the last one. Why is that? When developing the
-website, I'll be using the mcapi.us API, and since my API
-is going to be similar, I don't need to develop it first.
+I plan to develop this website in two big phases. One for the website, and the
+other one for the API. The API phase will be the last one. Why is that? When
+developing the website, I'll be using the [mcapi.us](https://mcapi.us) API, and
+since I want my API to be similar, I don't need to develop it first.
