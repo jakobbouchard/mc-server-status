@@ -1,30 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Server Status</title>
-  <meta name="description" content="A website to check a Minecraft Server's Status">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Server Status</title>
+    <meta
+      name="description"
+      content="A website to check a Minecraft Server's Status"
+    >
 
-  <link rel="stylesheet" href="styles/icons.css">
-  <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-  <header>
-    <div class="flex inner-header">
-      <h1>Server Status</h1>
+    <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <header>
+      <div class="flex inner-header">
+        <h1>Server Status</h1>
 
-      <div class="flex notification-area">
-        <span class="icon notification"></span>
-        <span class="icon plus"></span>
+        <div class="flex notification-area">
+          <span class="icon notification"></span>
+          <span class="icon plus"></span>
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
+    <section class="server-container" id="server-1">
+      <div class="server-header">
+        <h2>Server #1</h2>
+        <div class="server-metadata">
+          <div class="server-version">Spigot 1.14.4</div>
+        </div>
+      </div>
 
+      <div class="server-info">
+        <div class="col-33 list">
+          <h3 class="list-header">
+            Players (<span class="player-number">0/10</span>)
+          </h3>
+          <ul class="player-list">
+            <li>No players online</li>
+          </ul>
+        </div>
 
-  <script src="https://mcapi.us/scripts/minecraft.js"></script>
-  <script src="script/main.js"></script>
-</body>
+        <div class="col-33">
+          <div class="server-ip">minecraft.example.com</div>
+          <div class="flex server-info">
+            <img
+              class="server-icon"
+              src="https://via.placeholder.com/64"
+              alt="Icône du serveur"
+              width="64"
+              height="64"
+            >
+            <p class="server-motd">MOTD</p>
+          </div>
+        </div>
+
+        <div class="col-33 list">
+          <h3 class="list-header">
+            Plugins (<span class="plugin-number">9</span>)
+          </h3>
+          <ul class="plugin-list"></ul>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://mcapi.us/scripts/minecraft.js"></script>
+    <script src="script/main.js"></script>
+  </body>
 </html>
