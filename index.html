@@ -18,50 +18,30 @@
       <div class="flex inner-header">
         <h1>Server Status</h1>
 
-        <div class="flex notification-area">
+        <div class="flex action-zone">
           <span class="icon notification"></span>
           <span class="icon plus"></span>
         </div>
       </div>
     </header>
 
-    <section class="server-container" id="server-1">
-      <div class="server-header">
-        <h2>Server #1</h2>
-        <div class="server-metadata">
+    <section class="server-card" id="server-1">
+      <div class="flex server-header">
+        <img
+          class="server-icon"
+          src="https://via.placeholder.com/64?text=Icon"
+          alt="Server Icon"
+          width="64"
+          height="64"
+        >
+
+        <h2>Online</h2>
+
+        <span class="server-ip">minecraft.example.com</span>
+
+        <div>
           <div class="server-version">Spigot 1.14.4</div>
-        </div>
-      </div>
-
-      <div class="server-info">
-        <div class="col-33 list">
-          <h3 class="list-header">
-            Players (<span class="player-number">0/10</span>)
-          </h3>
-          <ul class="player-list">
-            <li>No players online</li>
-          </ul>
-        </div>
-
-        <div class="col-33">
-          <div class="server-ip">minecraft.example.com</div>
-          <div class="flex server-info">
-            <img
-              class="server-icon"
-              src="https://via.placeholder.com/64"
-              alt="Icône du serveur"
-              width="64"
-              height="64"
-            >
-            <p class="server-motd">MOTD</p>
-          </div>
-        </div>
-
-        <div class="col-33 list">
-          <h3 class="list-header">
-            Plugins (<span class="plugin-number">9</span>)
-          </h3>
-          <ul class="plugin-list"></ul>
+          <div class="player-number">0/10</div>
         </div>
       </div>
     </section>
