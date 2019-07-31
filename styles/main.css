@@ -27,7 +27,7 @@ header {
 
 .inner-header {
   margin: auto;
-  padding: 25px 0;
+  padding: 25px;
   max-width: 1080px;
 }
 
@@ -43,4 +43,18 @@ header {
 
 .action-zone > .icon {
   margin-left: 10px;
+}
+
+.container {
+  margin: auto;
+  padding: 25px;
+  max-width: 1080px;
+}
+
+.server-icon {
+  margin-right: 5%;
+}
+
+.server-address {
+  margin: 0 5% 0 auto;
 }
