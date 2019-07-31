@@ -6,7 +6,7 @@ of plugins, the list of mods if it is a modded server, as well as the ping.
 
 ## Features
 - Custom made querying API with customizable update time.
-- Responsive, mobile-first design.
+- Responsive, desktop-first design.
 - Progressive Web App / Offline mode.
 - Multiple server support.
 - Push notifications.
