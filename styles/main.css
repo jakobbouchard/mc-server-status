@@ -35,22 +35,12 @@ header {
   margin: 0;
 }
 
-.notification-area {
+.action-zone {
   align-items: center;
   margin-left: auto;
   font-size: 1.5em;
 }
 
-.notification-area > .icon {
+.action-zone > .icon {
   margin-left: 10px;
-}
-
-.row {
-  display: flex;
-  margin: 10px 0;
-}
-
-.col-33 {
-  padding: 0 15px;
-  width: 33.33%;
 }
